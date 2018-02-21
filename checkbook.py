@@ -58,7 +58,6 @@ class Book:
         
 # Responsible to navigate, download and parse the html in order to find the prices
 def main(bookname, out_file):
-    """Downloads all the images at 'url' to /test/"""
     # url builder
     url = 'http://busca.saraiva.com.br/?q=';
     for word in bookname.split():
